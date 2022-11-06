@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:olabildigince_ucuz/bilet/biletaramaanasayfa.dart';
+import 'package:olabildigince_ucuz/paylas%C4%B1m/arama.dart';
 
 class BiletArama extends StatefulWidget {
   const BiletArama({Key? key}) : super(key: key);
@@ -13,6 +14,7 @@ class _BiletAramaState extends State<BiletArama> {
   int _selectedIndex = 0;
   static const List<Widget> _widgetOptions = <Widget>[
     BiletAramaAnaSayfa(),
+    Arama(),
   ];
 
   void _onItemTapped(int index) {
