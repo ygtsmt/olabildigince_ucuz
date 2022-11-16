@@ -95,30 +95,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
                                 ),
                               ),
                             ),
-                      /* Expanded(
-                        child: Column(
-                          children: [
-                            Expanded(
-                              child: Text(
-                                "\nOTOBÜS BİLETİ AL!",
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                  color: Colors.blue.shade900,
-                                  fontWeight: FontWeight.w900,
-                                  fontSize: 18,
-                                ),
-                              ),
-                            ),
-                            Text(
-                              "ARACILIK SİSTEMİNİN TAMAMEN ORTADAN KALDIRILDIĞI ALABİLECEĞİN EN UCUZ BİLETİ AL!\n",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                  color: Colors.blue.shade900,
-                                  fontWeight: FontWeight.bold),
-                            )
-                          ],
-                        ),
-                      ) */
+              
                     ],
                   )),
                 ),
@@ -156,31 +133,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
                           ),
                         ),
                       ),
-                     /*  Expanded(
-                        child: Column(
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.all(4.0),
-                              child: Text(
-                                'YOLCULUK PAYLAŞIMI!',
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                  color: Colors.blue.shade900,
-                                  fontWeight: FontWeight.w900,
-                                  fontSize: 18,
-                                ),
-                              ),
-                            ),
-                            Text(
-                              'SENİNLE AYNI KONUMA GİDEN İNSANLARIN YOLCULUĞUNA ORTAK OLABİLİR VEYA ONLARI YOLCULUĞUNA ALABİLİRSİN!',
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                  color: Colors.blue.shade900,
-                                  fontWeight: FontWeight.bold),
-                            )
-                          ],
-                        ),
-                      ) */
+                   
                     ],
                   )),
                 ),

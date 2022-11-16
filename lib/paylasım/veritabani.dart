@@ -4,96 +4,11 @@ import 'yayinla.dart';
 
 import 'package:uuid/uuid.dart';
 
-/*    ilanolustur() {
-    return Padding(
-      padding: const EdgeInsets.all(5.0),
-      child: Container(
-          alignment: Alignment.center,
-          height: 250,
-          color: Colors.blue.shade900,
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              Expanded(
-                flex: 10,
-                child: Text(
-                  KALKISCONTROLLER.text.toString(),
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold),
-                ),
-              ),
-              Expanded(
-                flex: 12,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    Text(
-                      " Kalkış Tarihi ${selectedDate.day}.${selectedDate.month}.${selectedDate.year}",
-                      textAlign: TextAlign.center,
-                      style: TextStyle(color: Colors.white, fontSize: 20),
-                    ),
-                    Text(
-                      " Kalkış Saati ${selectedTime.hour}:${selectedTime.minute}",
-                      style: TextStyle(color: Colors.white, fontSize: 20),
-                      textAlign: TextAlign.center,
-                    ),
-                    Icon(Icons.arrow_forward, size: 50, color: Colors.white),
-                    Text(
-                                  "İSİM SOYİSİM : ${ADSOYAD.text}\nİLETİŞİM :${TELEFONO.text} ",textAlign: TextAlign.center,style: TextStyle(color: Colors.white, fontSize: 15),
-                    )    
-                  ],
-                ),
-              ),
-              Expanded(
-                flex: 10,
-                child: Text(
-                  VARISCONTROLLER.text.toString(),
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold),
-                ),
-              )
-            ],
-          )),
-    );
-  }  */
 
-// verıtabanına kaydır
-
-/* void veriyerlestir() {
-  var box = Hive.box('test');
-  box.add('emre');
-  box.add('altunbilek');
-
-  box.keys.forEach((element) {
-    debugPrint(element.toString());
-  });
-} */
 
 int counter = 0;
 
-/* void profilverisi() {
-  var box = Hive.box('kullanici');
-  box.add(adSoyad.text);
-  box.add(telefonNumarasi.text);
-  box.add(kalkissehri.text);
-  box.add(varissehri.text);
-  //  box.put('kullaniciadi', '${adSoyad.text}');
-  //  box.put('kullanicitelefon', '${telefonNumararasi.text}');
 
-  box.values.forEach(
-    (element) {
-      debugPrint(
-        element.toString(),
-      );
-    },
-  );
-} */
 class Turkiye {
   static const List<String> locations = [
     "ADANA",

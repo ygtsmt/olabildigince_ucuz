@@ -12,18 +12,6 @@ class Ilanlar extends StatefulWidget {
 }
 
 class _IlanlarState extends State<Ilanlar> {
-  /*  @override
-  void initState() {
-    super.initState();
-    //verilerioku();
- 
-    selectedDate;
-    selectedTime;
-    kalkissehri.text;
-    varissehri.text;
-    adSoyad.text;
-    telefonNumarasi.text;
-  } */
   var yenitask = Task(
       id:  Uuid().v1(),
       taskadsoyad: ADSOYAD.text,

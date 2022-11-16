@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:olabildigince_ucuz/bilet/biletveri.dart';
+import 'package:olabildigince_ucuz/paylasım/veritabani.dart';
 
 class BiletAramaAnaSayfa extends StatefulWidget {
   const BiletAramaAnaSayfa({Key? key}) : super(key: key);
